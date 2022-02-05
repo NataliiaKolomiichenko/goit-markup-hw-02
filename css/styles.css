@@ -121,6 +121,7 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
 /* ----- ADVANTAGES ----- */
@@ -172,6 +173,7 @@ body {
   font-size: 16px;
   line-height: 1.36;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 .button:hover,
 .button:focus {
