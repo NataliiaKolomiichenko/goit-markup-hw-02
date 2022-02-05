@@ -181,6 +181,10 @@ body {
   color: #ffffff;
 }
 
+.button {
+  background-color: #f5f4fa;
+}
+
 .project-list-item-title {
   color: var(--secondary-text-color);
   font-weight: 700;
