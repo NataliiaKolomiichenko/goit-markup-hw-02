@@ -7,7 +7,6 @@
 body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   color: #757575;
 }
 
@@ -61,6 +60,16 @@ body {
 
 .nav-link:hover,
 .nav-link:focus {
+  color: var(--accent-color);
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-color);
+}
+
+.address-list-location:hover,
+.address-list-location:focus {
   color: var(--accent-color);
 }
 
@@ -132,6 +141,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .advantages-description {
@@ -183,6 +193,7 @@ body {
 
 .button {
   background-color: #f5f4fa;
+  cursor: pointer;
 }
 
 .project-list-item-title {
